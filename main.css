@@ -1,0 +1,131 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff7f00;
+}
+.navbar-toggler {
+    border-color: #ffffff;
+}
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Seção Boas-Vindas */
+.container h1 {
+    font-weight: 700;
+    color: #343a40;
+}
+.container p.lead {
+    color: #666666;
+}
+
+/* Carrossel de Imagens */
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #343a40;
+    border-radius: 50%;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    color: #343a40;
+    font-weight: 700;
+}
+.card-body p {
+    color: #555555;
+}
+.btn-primary {
+    background-color: #ff7f00;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #e06a00;
+}
+
+/* Seção de Contato */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form h2 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.form-label {
+    font-weight: bold;
+    color: #343a40;
+}
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.form-check-label {
+    color: #666666;
+}
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+    .card-img-top {
+        height: 180px;
+    }
+    form {
+        padding: 15px;
+    }
+}
